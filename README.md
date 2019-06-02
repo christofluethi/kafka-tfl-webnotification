@@ -1,6 +1,9 @@
 # kafka-tfl-webnotification
-WebSocket provider for TfL CarPark UI
+Simple Spring Boot WebUI for the London CarPark State. Data is read from Kafka using Spring Kafka. As a simple producer you can use the [Kafka Tfl Connector](https://github.com/christofluethi/kafka-tfl-connector). 
 
-Simple Web UI providing a Websocket to update the CarPark-List in real-time.
+Data consumed by this connector is powered by TfL Open Data.
+
+# Web UI
+The UI is updated in realtime using a WebSocket.
 
 ![CarPark](carpark.gif)
